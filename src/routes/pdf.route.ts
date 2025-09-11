@@ -26,7 +26,7 @@ router.delete(
   checkExists(true, 'invoice', 'fileId', 'fileId', 'params', InvoiceCollection, getCheckExistsLogger('invoice')),
   deletePDF
 );
-
+ 
 router.get(
   '/invoices/:fileId',
   checkExists(true, 'invoice', 'fileId', 'fileId', 'params', InvoiceCollection, getCheckExistsLogger('invoice')),
